@@ -16,7 +16,7 @@
 //		int n = Integer.parseInt(tokenizer.nextToken());
 //		int m = Integer.parseInt(tokenizer.nextToken());
 //		int k = Integer.parseInt(tokenizer.nextToken());
-//		Integer[] arr = new Integer[n]; // int ÇüÀº ¿ª¼øÁ¤·Ä ¾ÈµÊ. ·¡ÆÛÅ¬·¡½º(°´Ã¼)ÇüÀ¸·Î ¼±¾ğ ¹× »ı¼º.
+//		Integer[] arr = new Integer[n]; // int í˜•ì€ ì—­ìˆœì •ë ¬ ì•ˆë¨. ë˜í¼í´ë˜ìŠ¤(ê°ì²´)í˜•ìœ¼ë¡œ ì„ ì–¸ ë° ìƒì„±.
 //		StringTokenizer ArrToken = new StringTokenizer(reader.readLine());
 //		for (int i = 0; i < n; i++) {
 //			arr[i] = Integer.parseInt(ArrToken.nextToken());
