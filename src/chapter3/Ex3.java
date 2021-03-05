@@ -86,13 +86,10 @@ public class Ex3 {
 		
 		for (int i = 0; i < n; i++) {
 			StringTokenizer tokenizer2 = new StringTokenizer(br.readLine());
-			int[] arr = new int[m];
-			for (int j = 0; j < m; j++) {
-				arr[j] = Integer.parseInt(tokenizer2.nextToken());
-			}
 			int minValue = 10001;
 			for (int k = 0; k < m; k++) {
-				minValue = Math.min(minValue, arr[k]);
+				int x = Integer.parseInt(tokenizer2.nextToken());
+				minValue = Math.min(minValue, x);
 			}
 			result = Math.max(result, minValue);
 		}
